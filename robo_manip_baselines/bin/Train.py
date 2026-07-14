@@ -63,7 +63,9 @@ class TrainMain:
         train.run()
         train.close()
 
+def main():
+    train_main = TrainMain()
+    train_main.run()
 
 if __name__ == "__main__":
-    main = TrainMain()
-    main.run()
+    main()

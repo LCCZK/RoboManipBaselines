@@ -112,7 +112,10 @@ class RolloutMain:
         rollout = Rollout(**config)
         rollout.run()
 
+def main():
+    rollout_main = RolloutMain()
+    rollout_main.run()
+
 
 if __name__ == "__main__":
-    main = RolloutMain()
-    main.run()
+    main()

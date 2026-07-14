@@ -128,3 +128,7 @@ benchmarks = [
 
 [tool.setuptools.packages.find]
 include = ["robo_manip_baselines", "robo_manip_baselines.*"]
+
+[project.scripts]
+s26-train = "robo_manip_baselines.bin.Train:main"
+s26-rollout = "robo_manip_baselines.bin.Rollout:main"
